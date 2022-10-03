@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
+    "csv-writer": "^1.6.0",
     "json2csv": "^5.0.7",
     "node-modules": "^1.0.1"
   }
