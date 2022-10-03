@@ -15,7 +15,7 @@ const sendGetRequest = async () => {
         var json = [resp.data]
         const createCsvWriter = require('csv-writer').createObjectCsvWriter;
         const csvWriter = createCsvWriter({
-            path: './file.csv',
+            path: './csv/file.csv',
             header: [
                 'rowCounter',
                 'time',
